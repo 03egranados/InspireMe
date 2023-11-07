@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccf4ef;
+}
+
+/* Add some spacing and centering for the body content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add custom styling for the quote container */
+.quoteContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(209, 39, 39, 0.1);
+}
+
+#quote {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Add button styles for a "New Quote" button */
+#newQuoteBtn, #saveQuoteBtn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#newQuoteBtn:hover, #saveQuoteBtn:hover {
+    background-color: #222222;
+}
+
+/* Add button styles for the "Edit" and "Remove" buttons */
+.actionButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.actionButton:hover {
+    background-color: #2584c3;
+}
+
+/* Style the "Edit" button differently */
+.editQuoteBtn {
+    background-color: #27ae60;
+}
+
+/* Style the "Remove" button differently */
+.removeQuoteBtn {
+    background-color: #e74c3c;
+}

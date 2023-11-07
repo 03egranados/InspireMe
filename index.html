@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inspire Me</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include an external stylesheet -->
+</head>
+<body>
+    <header>
+        <h1>Inspire Me!</h1> 
+        <p>Discover new inspiration with each click!</p> 
+    </header>
+    <main>
+
+        <!-- Container for the generated API quote -->
+        <div class="quoteContainer apiQuoteContainer">
+            <h2>Generated Quote</h2> 
+            <div id="quote"></div> <!-- Display the API-generated quote here -->
+            <div id="author"></div> <!-- Display the author of the API-generated quote here -->
+            <button id="newQuoteBtn">New Quote</button> <!-- Button to fetch a new API quote -->
+            <button id="saveQuoteBtn">Save Quote</button> <!-- Button to save the API quote to the database -->
+        </div>
+        
+        <!-- Container for the saved quotes from the database -->
+        <div class="quoteContainer dbQuoteContainer">
+            <h2>Database Saved Quotes</h2>
+            <div id="dbQuotes"></div> <!-- Display the saved quotes from the database here -->
+        </div>
+    </main>
+    <script src="quote_api.js" type="module"></script>
+</body>
+</html>
