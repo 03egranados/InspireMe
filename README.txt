@@ -23,7 +23,7 @@ PHP - Programming Language
 
 Description:
 -------------
-Inspire Me is a basic web application for generating, saving, editing, and deleting quotes. It consists of a front-end interface for displaying and manipulating quotes from both an external API and a local database. The app allows you to fetch random quotes, save them to your database, edit existing quotes, and delete quotes you no longer want to store.
+Inspire Me is a basic web application for generating, saving, editing, and deleting quotes. It consists of a front-end interface for displaying and manipulating quotes from both an external API and a local database. The app allows you to fetch random quotes, save them to the database, edit existing quotes, and delete quotes you no longer want to store.
 
 Features:
 ---------
@@ -31,13 +31,13 @@ Features:
 (Click "New Quote" to fetch and display a random API generated quote.)
 
 2. Save your favorite quotes to a local database.
-(Click "Save Quote" to save the displayed API quote to your local database)
+(Click "Save Quote" to save the displayed API quote to the local database)
 
 3. Edit existing quotes with customized content and author.
 (Click "Edit" on any saved quote to modify its content or author.)
 
-4. Delete quotes from your saved collection.
-(Click "Delete" to remove a quote from your database.)
+4. Delete quotes from the saved collection.
+(Click "Delete" to remove a quote from the database.)
 
 Requirements:
 --------------
